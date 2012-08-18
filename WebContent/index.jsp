@@ -44,6 +44,9 @@
 			<div class="fText">
 				Smilodon
 			</div>
+			<div class="fText">
+				Smilodon
+			</div>
 		</div>
 		
 	</div>
