@@ -2,27 +2,25 @@
 
 body {
 	margin: 1px;
-
 }
 
-.main{
-    font-family: Arial, Helvetica, sans-serif;
-    width: 99%;
-    height: 100%;
-    height: inherit;
-    margin: 0 auto;
+.main {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 99%;
+	height: 100%;
+	height: inherit;
+	margin: 0 auto;
 }
 
 /*HEADER*/
-
-#header{
+#header {
 	background-color: YellowGreen;
 	width: 100%;
 	height: 120px;
 	border: 1px black solid;
 }
 
-#header .text{
+#header .text {
 	font-size: 16px;
 	font-style: oblique;
 	text-align: left;
@@ -31,84 +29,143 @@ body {
 }
 
 /*BODY*/
-
 #body {
 	width: 100%;
 	height: 800px;
 	background-color: #FFFFAE;
 }
 
-#body .controlPanel{
+#body .controlPanel {
 	background-color: #FFFF3E;
 	width: 100%;
 	height: 50px;
 	border-left: 1px black solid;
-	border-bottom: 1px black solid;	
-	border-right: 1px black solid;	
+	border-bottom: 1px black solid;
+	border-right: 1px black solid;
 	margin-bottom: 30px;
 }
 
-#body #functionPaneles{
+#body #functionPaneles {
 	height: 600px;
 	width: 80%;
 	position: relative;
-	margin: 20px auto 20px auto;
+	margin: 7% auto 20px auto;
 }
 
-#body .leftPanel{
+#body .leftPanel {
 	background-color: #FFFF6F;
 	width: 45%;
 	height: 100%;
 	border: 1px black solid;
-	float: left;
+	border-radius: 5px;
 }
 
-#body .rightPanel{
+#body .leftPanel:HOVER {
+	border: 2px black solid;
+}
+
+.item {
+	width: 105%;
+	height: 100px;
+	border-right: 1px red solid;
+	position: static;
+	margin: 0;
+	border-radius: 5px;
+}
+
+.item:HOVER {
+	border: 2px #FFFF6F solid;
+	border-radius: 5px;
+	width: 103%;
+	margin-left: 1%;
+}
+
+.itemRed {
+	background: #FF6666;
+	width: 95%;
+	height: 99%;
+	border-bottom border-top: 1px #D8D8C5 solid;
+	margin-left: 1px;
+	border-radius: 3px;
+}
+
+.itemOrange {
+	background: #FFA319;
+	width: 95%;
+	height: 99%;
+	border-bottom border-top: 1px #D8D8C5 solid;
+	margin-left: 1px;
+	border-radius: 3px;
+}
+
+.itemGreen {
+	background: #70DB70;
+	width: 95%;
+	height: 99%;
+	border-bottom border-top: 1px #D8D8C5 solid;
+	margin-left: 1px;
+	border-radius: 3px;
+}
+
+.itemPurple {
+	background: #83648F;
+	width: 95%;
+	height: 99%;
+	border-bottom border-top: 1px #D8D8C5 solid;
+	margin-left: 1px;
+	border-radius: 3px;
+}
+
+#body .rightPanel {
 	background-color: #FFFF6F;
 	width: 45%;
 	height: 100%;
 	border: 1px black solid;
 	float: right;
+	border-radius: 5px;
 }
 
-#body .leftRight{
+#body .rightPanel:HOVER {
+	border: 2px black solid;
+}
+
+#body .leftRight {
 	width: 8%;
 	height: 180px;
 	margin: 200px auto auto 46%;
 	position: absolute;
 }
 
-#functionPaneles .toLeft{
+#functionPaneles .toLeft {
 	margin: 0 auto 0 auto;
 	width: 70px;
 	height: 70px;
-	background-image:url("http://localhost:8080/ToDo/img/toLeft.png");
+	background-image: url("http://localhost:8080/ToDo/img/toLeft.png");
 	background-size: contain;
 }
 
-#functionPaneles .toLeft:hover{
-	margin-right: 15%		
+#functionPaneles .toLeft:hover {
+	margin-right: 15%
 }
 
-#functionPaneles .toLeft:active{
-	margin-right: 25%		
+#functionPaneles .toLeft:active {
+	margin-right: 25%
 }
 
-
-#functionPaneles .toRight{
+#functionPaneles .toRight {
 	margin: 0 auto 40px auto;
 	width: 70px;
 	height: 70px;
-    border-style: none;
-	background-image:url("http://localhost:8080/ToDo/img/toRight.png");
+	border-style: none;
+	background-image: url("http://localhost:8080/ToDo/img/toRight.png");
 	background-size: contain;
 }
 
-#functionPaneles .toRight:hover{
+#functionPaneles .toRight:hover {
 	margin-left: 15%;
 }
 
-#functionPaneles .toRight:active{
+#functionPaneles .toRight:active {
 	margin-left: 25%;
 }
 
