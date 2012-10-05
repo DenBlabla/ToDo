@@ -15,41 +15,50 @@
 <body>
 	<div class="main">
 		<div id="header">
-			<div class="text">Telepuziki forever!</div>
+			<div class="headerText">Telepuziki forever!</div>
 		</div>
 		<div id="body">
 			<div class="controlPanel"></div>
 			<div id="functionPaneles">
-				<div class="leftPanel">
+				<div class="leftPanel panel">
 					<div class="item">
-						<div class="itemRed">Trololo</div>
+						<div class="itemRed itemText">Trololo</div>
 					</div>
 					<div class="item">
-						<div class="itemOrange">Trololo</div>
+						<div class="itemOrange itemText">Trololo</div>
 					</div>
 					<div class="item">
-						<div class="itemGreen">Trololo</div>
+						<div class="itemGreen itemText">Trololo</div>
 					</div>
 					<div class="item">
-						<div class="itemPurple">Trololo</div>
+						<div class="itemPurple itemText">Trololo</div>
+					</div>
+					<div class="item">
+						<div class="itemOrange itemText">Trololo</div>
+					</div>
+					<div class="item">
+						<div class="itemRed itemText">Trololo</div>
+					</div>
+					<div class="item">
+						<div class="itemPurple itemText">Trololo</div>
 					</div>
 				</div>
 				<div class="leftRight">
 					<div class="toRight"></div>
 					<div class="toLeft"></div>
 				</div>
-				<div class="rightPanel">
+				<div class="rightPanel panel">
 					<div class="item">
-						<div class="itemGreen">Trololo</div>
+						<div class="itemGreen itemText">Trololo</div>
 					</div>
 					<div class="item">
-						<div class="itemRed">Trololo</div>
+						<div class="itemRed itemText">Trololo</div>
 					</div>
 					<div class="item">
-						<div class="itemOrange">Trololo</div>
+						<div class="itemOrange itemText">Trololo</div>
 					</div>
 					<div class="item">
-						<div class="itemPurple">Trololo</div>
+						<div class="itemPurple itemText">Trololo</div>
 					</div>
 				</div>
 

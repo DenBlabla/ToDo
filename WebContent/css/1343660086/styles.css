@@ -7,31 +7,27 @@ body {
 .main {
 	font-family: Arial, Helvetica, sans-serif;
 	width: 99%;
-	height: 100%;
-	height: inherit;
-	margin: 0 auto;
+	margin: 0 auto 0 auto;
 }
 
 /*HEADER*/
 #header {
 	background-color: YellowGreen;
 	width: 100%;
-	height: 120px;
+	height: 100px;
 	border: 1px black solid;
 }
 
-#header .text {
-	font-size: 16px;
+#header .headerText {
+	font-size: 18px;
 	font-style: oblique;
 	text-align: left;
-	height: 20px;
-	margin: 10px auto auto 5px;
+	margin: 15px auto auto 15px;
 }
 
 /*BODY*/
 #body {
 	width: 100%;
-	height: 800px;
 	background-color: #FFFFAE;
 }
 
@@ -46,19 +42,24 @@ body {
 }
 
 #body #functionPaneles {
-	height: 600px;
 	width: 80%;
-	position: relative;
 	margin: 7% auto 20px auto;
+	padding-bottom: 15%;
 }
 
-#body .leftPanel {
+#body .panel {
 	background-color: #FFFF6F;
 	width: 45%;
-	height: 100%;
 	border: 1px black solid;
-	border-radius: 5px;
+	border-radius: 5px;	
+	position: inherit;
+}	
+
+#body .leftPanel {
+	float: left;
+
 }
+
 
 #body .leftPanel:HOVER {
 	border: 2px black solid;
@@ -67,62 +68,55 @@ body {
 .item {
 	width: 105%;
 	height: 100px;
-	border-right: 1px red solid;
 	position: static;
 	margin: 0;
 	border-radius: 5px;
 }
 
 .item:HOVER {
-	border: 2px #FFFF6F solid;
 	border-radius: 5px;
 	width: 103%;
 	margin-left: 1%;
+	border-right: 1px red solid;
+}
+
+.itemText{
+	width: 95%;
+	height: 99%;
+	border-bottom border-top: 1px #D8D8C5 solid;
+	margin-left: 1px;
+	border-radius: 3px;	
+}
+
+.itemText:HOVER{
+	width: 95%;
+	height: 99%;
+	border-bottom border-top: 1px #D8D8C5 solid;
+	margin-left: 1px;
+	border-radius: 3px;	
 }
 
 .itemRed {
 	background: #FF6666;
-	width: 95%;
-	height: 99%;
-	border-bottom border-top: 1px #D8D8C5 solid;
-	margin-left: 1px;
-	border-radius: 3px;
+
 }
 
 .itemOrange {
 	background: #FFA319;
-	width: 95%;
-	height: 99%;
-	border-bottom border-top: 1px #D8D8C5 solid;
-	margin-left: 1px;
-	border-radius: 3px;
 }
 
 .itemGreen {
 	background: #70DB70;
-	width: 95%;
-	height: 99%;
-	border-bottom border-top: 1px #D8D8C5 solid;
-	margin-left: 1px;
-	border-radius: 3px;
 }
 
 .itemPurple {
 	background: #83648F;
-	width: 95%;
-	height: 99%;
-	border-bottom border-top: 1px #D8D8C5 solid;
-	margin-left: 1px;
-	border-radius: 3px;
 }
 
 #body .rightPanel {
-	background-color: #FFFF6F;
-	width: 45%;
-	height: 100%;
-	border: 1px black solid;
 	float: right;
-	border-radius: 5px;
+	margin-left: 5%;
+	margin-top: 0;
 }
 
 #body .rightPanel:HOVER {
@@ -132,8 +126,8 @@ body {
 #body .leftRight {
 	width: 8%;
 	height: 180px;
-	margin: 200px auto auto 46%;
-	position: absolute;
+	margin: 2% auto auto 46%;
+	float: left;
 }
 
 #functionPaneles .toLeft {
