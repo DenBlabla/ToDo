@@ -1,19 +1,33 @@
-package object.business;
+package object;
 
 import java.util.Date;
 
-public class Business {
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import org.hibernate.annotations.GenericGenerator;
+
+@Entity
+@Table(name="s_business")
+public class BusinessEntity {
 	private int id;
 	private String title;
 	private String discription;
 	private Date dateCreate;
 	private Date dateEdit;
 	private Date dateResolved;
-	private int theme;
-	private int icon;
-	private int user;
-	private int status;
 
+	public BusinessEntity(){
+		
+	}
+	
+	@Id
+    @GeneratedValue(generator="increment")
+    @GenericGenerator(name="increment", strategy = "increment")
+    @Column(name="id")
 	public int getId() {
 		return id;
 	}
@@ -22,6 +36,7 @@ public class Business {
 		this.id = id;
 	}
 
+	@Column(name="title")
 	public String getTitle() {
 		return title;
 	}
@@ -30,6 +45,7 @@ public class Business {
 		this.title = title;
 	}
 
+	@Column(name="discription")
 	public String getDiscription() {
 		return discription;
 	}
@@ -38,6 +54,7 @@ public class Business {
 		this.discription = discription;
 	}
 
+	@Column(name="date_create")
 	public Date getDateCreate() {
 		return dateCreate;
 	}
@@ -46,6 +63,7 @@ public class Business {
 		this.dateCreate = dateCreate;
 	}
 
+	@Column(name="date_edit")
 	public Date getDateEdit() {
 		return dateEdit;
 	}
@@ -54,6 +72,7 @@ public class Business {
 		this.dateEdit = dateEdit;
 	}
 
+	@Column(name="date_resolved")
 	public Date getDateResolved() {
 		return dateResolved;
 	}
@@ -61,37 +80,5 @@ public class Business {
 	public void setDateResolved(Date dateResolved) {
 		this.dateResolved = dateResolved;
 	}
-
-	public int getTheme() {
-		return theme;
-	}
-
-	public void setTheme(int theme) {
-		this.theme = theme;
-	}
-
-	public int getIcon() {
-		return icon;
-	}
-
-	public void setIcon(int icon) {
-		this.icon = icon;
-	}
-
-	public int getUser() {
-		return user;
-	}
-
-	public void setUser(int user) {
-		this.user = user;
-	}
-
-	public int getStatus() {
-		return status;
-	}
-
-	public void setStatus(int status) {
-		this.status = status;
-	}
-
+	
 }

@@ -15,57 +15,57 @@
 <body>
 	<div class="main">
 		<div id="header">
-			<div class="headerText">Telepuziki forever!</div>
+			<div class="headerText">Telepuziki forever =) =)!</div>
 		</div>
 		<div id="body">
 			<div class="controlPanel"></div>
-			<div id="functionPaneles">
-				<div class="leftPanel panel">
-					<div class="item">
-						<div class="itemRed itemText">Trololo</div>
+			<div id="functionPanelesBody">
+				<div id="functionPaneles">
+					<div class="leftPanel panel">
+						<div class="item">
+							<div class="itemRed itemText">Trololo</div>
+						</div>
+						<div class="item">
+							<div class="itemOrange itemText">Trololo</div>
+						</div>
+						<div class="item">
+							<div class="itemGreen itemText">Trololo</div>
+						</div>
+						<div class="item">
+							<div class="itemPurple itemText">Trololo</div>
+						</div>
+						<div class="item">
+							<div class="itemOrange itemText">Trololo</div>
+						</div>
+						<div class="item">
+							<div class="itemRed itemText">Trololo</div>
+						</div>
+						<div class="item">
+							<div class="itemPurple itemText">Trololo</div>
+						</div>
 					</div>
-					<div class="item">
-						<div class="itemOrange itemText">Trololo</div>
+					<div class="leftRight">
+						<div class="toRight"></div>
+						<div class="toLeft"></div>
 					</div>
-					<div class="item">
-						<div class="itemGreen itemText">Trololo</div>
-					</div>
-					<div class="item">
-						<div class="itemPurple itemText">Trololo</div>
-					</div>
-					<div class="item">
-						<div class="itemOrange itemText">Trololo</div>
-					</div>
-					<div class="item">
-						<div class="itemRed itemText">Trololo</div>
-					</div>
-					<div class="item">
-						<div class="itemPurple itemText">Trololo</div>
+					<div class="rightPanel panel">
+						<div class="item">
+							<div class="itemGreen itemText">Trololo</div>
+						</div>
+						<div class="item">
+							<div class="itemRed itemText">Trololo</div>
+						</div>
+						<div class="item">
+							<div class="itemOrange itemText">Trololo</div>
+						</div>
+						<div class="item">
+							<div class="itemPurple itemText">Trololo</div>
+						</div>
 					</div>
 				</div>
-				<div class="leftRight">
-					<div class="toRight"></div>
-					<div class="toLeft"></div>
-				</div>
-				<div class="rightPanel panel">
-					<div class="item">
-						<div class="itemGreen itemText">Trololo</div>
-					</div>
-					<div class="item">
-						<div class="itemRed itemText">Trololo</div>
-					</div>
-					<div class="item">
-						<div class="itemOrange itemText">Trololo</div>
-					</div>
-					<div class="item">
-						<div class="itemPurple itemText">Trololo</div>
-					</div>
-				</div>
-
 			</div>
 		</div>
 		<div id="footer">
-			<div class="fText">Smilodon</div>
 			<div class="fText">Smilodon</div>
 		</div>
 
